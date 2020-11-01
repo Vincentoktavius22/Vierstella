@@ -1,0 +1,25 @@
+@media all and (max-width: 1080px) {
+ .header-right {
+  display: block;
+ }
+ .container {
+   flex-wrap: wrap;
+   margin: auto;
+ }
+ .container a {
+   width:25%;
+   margin: auto;
+ }
+ .header-right a {
+   font-size: 10px;
+   text-align: center;
+   line-height: 37.5px;
+   padding: 11.5px 15px 11.5px 15px;
+ }
+ @media all and (max-width: 670px) {
+.menu-icon {
+   display: block;
+}
+.header-right {
+ display: none;
+}
