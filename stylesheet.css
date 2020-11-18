@@ -14,9 +14,9 @@ body {
   font-family: "ebrima";
 }
 header {
-  height: 160px;
+  height: 140px;
   width: 100%;
-  background-color: rgba(28, 55, 39, 0.6);
+  background-color: rgba(255, 169, 118, 0.9);
   position: fixed;
   top: 0;
   z-index: 10;
@@ -29,12 +29,16 @@ header {
 }
 
 .logo {
-  width: 140px;
-  padding: 10px;
+  width: 100px;
+  padding: 20px 40px 20px 40px;
   float: left;
 }
 .header-left {
   float: left;
+}
+.header-left p{
+  text-align: center;
+  color: rgba(152, 153, 232);
 }
 .header-right {
   float: right;
@@ -74,7 +78,7 @@ input[type=text]:hover, :focus {
 }
 
 input[type=text]::placeholder {
-  color:  rgba(237, 255, 245, 0.8);
+  color: rgb(249, 217, 192);
   text-transform: uppercase;
   letter-spacing: 1.3px;
   font-size: 14px;
@@ -86,22 +90,21 @@ input[type=text]::placeholder {
   margin: 10px 8px;
   margin-right: 16px;
   font-size: 14px;
-  color: rgba(237, 255, 245, 0.5);
-  border: 1px solid rgba(237, 255, 245, 0.5);
+  border: 3px solid rgba(249, 217, 192, 0.8);
 }
 .top-wrapper {
   padding: 180px 0 100px 0;
-  background-color: rgba(237, 255, 245, 0.8);
+  background-color: rgba(249, 217, 192, 0.8);
   background-size: contain;
   color: inherit;
   text-align: center;
 }
 
 .btn {
-  color:  rgba(28, 55, 39, 0.8);
+  color:  rgb(255, 169, 118);
   border: none;
   border-radius: 5%;
-  background-color: rgba(237, 255, 245, 0.5);
+  background-color: rgb(249, 217, 192);
   padding: 10px 5px;
   margin: 2px 1px 2px 0;
   font-size: 16px;
@@ -112,14 +115,14 @@ input[type=text]::placeholder {
 }
 
 .btn:hover {
-  color: rgba(237, 255, 245, 0.8);
-  background-color: rgba(28, 55, 39, 0.5);
+  color:  rgba(152, 153, 232, 0.8);
+  background-color: rgba(249, 217, 192, 0.8);
   opacity: 0.9;
 }
 
 
 .hero-image {
-  background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("https://cdn.downtoearth.org.in/library/large/2019-08-29/0.09146200_1567071232_trees-gettyimages-.jpg");
+  background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("https://t4.ftcdn.net/jpg/03/30/64/93/360_F_330649364_YM6RvMp0R1z5DMEwMUAZpuZRcyyYCG7b.jpg");
   height: 80%;
   margin-left: auto;
   margin-right: auto;
@@ -136,7 +139,7 @@ input[type=text]::placeholder {
   top: 50%;
   left: 50%;
   transform: translate(-50%, -50%);
-  color: rgb(237, 255, 245);
+  color: rgb(216, 216, 214);
 }
 
 .hero-text h1  {
@@ -181,11 +184,12 @@ input[type=text]::placeholder {
 .hero-text button:hover {
   opacity: 1;
   cursor: pointer;
-  color: rgba(28, 55, 39, 0.8);
+  color: rgba(216, 216, 214);
+  background-color: rgba(255, 169, 118, 0.9);
 }
 
 .text-team h1 {
-  color: rgb(28, 55, 39);
+  color: rgba(255, 169, 118, 0.9);
   font-size: 100px;
   letter-spacing: 4px;
   margin: 80px 0;
@@ -209,7 +213,7 @@ input[type=text]::placeholder {
   width: auto;
   margin-top: -22px;
   padding: 14px;
-  color: rgba(28, 55, 39, 0.8);
+  color: rgba(152, 153, 232, 0.8);
   font-weight: bold;
   font-size: 36px;
   transition: 0.5s ease;
@@ -227,7 +231,7 @@ input[type=text]::placeholder {
 
 
 .prev:hover, .next:hover {
-  background-color: rgb(237, 255, 245);
+  background-color:rgba(249, 217, 192, 0.8);
   opacity: 0.8;
 }
 
@@ -255,14 +259,14 @@ input[type=text]::placeholder {
   height: 15px;
   width: 15px;
   margin: 0 2px;
-  background-color: rgba(148, 255, 192, 0.8);
+  background-color: rgba(188, 175, 189, 0.8);
   border-radius: 50%;
   display: inline-block;
   transition: 0.5s ease;
 }
 
 .active, .dot:hover {
-  background-color: rgba(28, 55, 39, 0.8);
+  background-color: rgba(152, 153, 232, 0.8);
 }
 
 /* Fading animation */
@@ -280,5 +284,43 @@ input[type=text]::placeholder {
 @keyframes fade {
   from {opacity: .4}
   to {opacity: 1}
+}
+
+input, textarea {
+  width: 400px;
+  margin-top: 10px;
+  margin-bottom: 30px;
+  padding: 20px;
+  font-size: 18px;
+  border: 1px solid #dee7ec;
+}
+
+.section-title {
+  font-size: 70px;
+  color: rgba(255, 169, 118, 0.9);
+}
+.contact-submit {
+  background-color: rgba(255, 169, 118, 0.9);
+  color:#889eab;
+}
+
+.footer {
+  background-color: rgba(255, 169, 118, 0.9);
+  color:  #000000;
+  height: 120px;
+  padding: 40px;
+}
+
+.footer-logo {
+  float: left;
+  font-size: 32px;
+}
+
+.footer-list {
+  float: right;
+}
+
+.footer-list li {
+  padding-bottom: 20px;
 }
 
