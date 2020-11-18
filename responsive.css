@@ -13,8 +13,9 @@ header {
    margin: auto;
  }
  .logo {
-   margin-left: 50px;
+   margin-left: 30px;
    width: 100px;
+   padding: 10px 0;
  }
  .hero-text h1 {
    font-size: 70px;
@@ -31,7 +32,7 @@ header {
     font-size: 14px;
   }
   .topnav input[type=text] {
-    border: 1px solid;
+    border: 3px solid  rgba(249, 217, 192, 0.8);
   }
   .hero-image {
     width: 100%;
